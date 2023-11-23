@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap" rel="stylesheet">
+    <title>Maker</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="space">
+        <img src="./images/logo.svg" alt="logo">
+    </nav>
+    <!-- header -->
+    <header class="space">
+        <div class="container">
+            <img src="./images/left-people.png" class="left-p" alt="image">
+            <img src="./images/right-people.png" class="right-p" alt="image">
+            <div class="content">
+                <h1>Get paid for the work <br> you <span>love</span> to do.</h1>
+                <p>The 9-5 grind is so last century. We believe in living life on your own terms. Whether you're looking to escape the rat race or set up a side hustle, we've got you covered.</p>
+                <img src="./images/mouse.svg" alt="mouse">
+            </div>
+        </div>
+    </header>
+
+    <!-- autonomy -->
+    <section class="autonomy space">
+        <div class="box">
+            <div class="small">
+                <div class="image">
+                    <img src="./images/passion.svg" alt="">
+                </div>
+                <div class="text">
+                    <h1>Indulge your passions</h1>
+                    <p>Your passions shouldn't be just for the weekend. Earn a living doing what you love.</p>
+                </div>
+            </div>
+            <div class="small">
+                <div class="image">
+                    <img src="./images/freedom.svg" alt="">
+                </div>
+                <div class="text">
+                    <h1>Gain financial freedom</h1>
+                    <p>Start making money work for you. There’s nothing quite like earning while you sleep. </p>
+                </div>
+            </div>
+            <div class="small">
+                <div class="image">
+                    <img src="./images/life.svg" alt="">
+                </div>
+                <div class="text">
+                    <h1>Choose your lifestyle</h1>
+                    <p>Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.</p>
+                </div>
+            </div>
+            <div class="small">
+                <div class="image">
+                    <img src="./images/car.svg" alt="">
+                </div>
+                <div class="text">
+                    <h1>Work from anywhere</h1>
+                    <p>Selling online means not being pinned down. Want to work AND travel? Go for it!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- plans -->
+    <div class="center space">
+        <h1>Our pricing plans</h1>
+        <p>We only make money when our creators make money. Our plans are always <br> affordable, and it’s completely free to get started.</p>
+    </div>
+
+    <section class="cards space">
+        <div class="price">
+            <div class="card left">
+                <img src="./images/free.svg" class="img-left" alt="image">
+                <label>Dip your toe</label>
+                <p>Just getting started? No problem at all! Our free plan will take you a long way.</p>
+                <h1>Free</h1>
+                <ul>
+                    <li>Unlimited Products</li>
+                    <li>Basic analytics</li>
+                    <li>Limmited marketplace exposure</li>
+                    <li>10% fee per transaction</li>
+                </ul>
+            </div>
+            <div class="card right">
+                <img src="./images/paid.svg" class="img-right" alt="image">
+                <label>Dive right in</label>
+                <p>Ready for the big time? Our paid plan will help you take your business to the next level.</p>
+                <h1>$25.00 <span>/month</span></h1>
+                <ul>
+                    <li>Custom domain</li>
+                    <li>Advanced analytics and reports</li>
+                    <li>High marketplace visibility</li>
+                    <li>5% fee per transaction</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <h1>Get notified when we launch</h1>
+        <form id="notificationForm" onsubmit="validateEmail(event)">
+            <div class="both">
+                <input type="email" class="error"  id="emailInput" placeholder="Email address" autocomplete="off">
+                <button class="primary-btn">Get notified</button>
+                <span id="oops1">Oops! Please add your email</span>
+                <span id="oops2">Oops! That doesn’t look like an email address</span>
+            </div>
+        </form>
+    </footer>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
